@@ -1,0 +1,3 @@
+C:\GIT\Tankogeddon\Intermediate\Build\Win64\UE4Editor\Development\Tankogeddon\Definitions.Tankogeddon.h
+C:\GIT\Tankogeddon\Source\Tankogeddon\Turret.h
+C:\GIT\Tankogeddon\Intermediate\Build\Win64\UE4Editor\Inc\Tankogeddon\Turret.generated.h

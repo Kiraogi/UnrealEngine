@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\GIT\\Tankogeddon\\Source\\Tankogeddon\\Tankogeddon.Build.cs",
+		"C:\\GIT\\Tankogeddon\\Source\\Tankogeddon.Target.cs",
+		"C:\\GIT\\Tankogeddon\\Source\\TankogeddonEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

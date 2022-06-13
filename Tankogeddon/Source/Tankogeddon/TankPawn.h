@@ -2,8 +2,11 @@
 
 #pragma once
 
+#include "DamageTaker.h"
+#include "HealthComponent.h"
 #include "Cannon.h"
 #include "CoreMinimal.h"
+#include "Components/BoxComponent.h"
 #include "GameFramework/Pawn.h"
 #include "TankPawn.generated.h"
 
@@ -14,7 +17,7 @@ class ATankPlayerController;
 class ACannon;
 
 UCLASS()
-class TANKOGEDDON_API ATankPawn : public APawn
+class TANKOGEDDON_API ATankPawn : public APawn, public IDamageTaker
 {
 	GENERATED_BODY()
 
@@ -44,6 +47,15 @@ public:
 
 	void ChangeWeapon(TSubclassOf<ACannon> cannonClass);
 
+	UFUNCTION()
+		void TakeDamage(FDamageData DamageData) override;
+
+	UFUNCTION()
+		void OnDie();
+
+	UFUNCTION()
+		void DamageTaked(float DamageValue);
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -57,8 +69,14 @@ protected:
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "Components")
 		USpringArmComponent* SpringArm;
 
-	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "Components")
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
 		UCameraComponent* Camera;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
+		class UHealthComponent* HealthComponent;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
+		class UBoxComponent* BoxCollision;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Movement|Speed")
 		float MoveSpeed = 100;

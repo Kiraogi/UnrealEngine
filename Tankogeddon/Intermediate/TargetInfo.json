@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Tankogeddon",
+			"Path": "C:\\GIT\\Tankogeddon\\Source\\Tankogeddon.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TankogeddonEditor",
+			"Path": "C:\\GIT\\Tankogeddon\\Source\\TankogeddonEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

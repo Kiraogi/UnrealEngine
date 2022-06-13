@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Tankogeddon.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{CF6BB3B4-1342-425C-ABD8-8D164550A320}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tankogeddon.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TankogeddonEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7519AA15-DAD0-4CD7-A131-3FBE0F6D2E6C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Tankogeddon">
+      <UniqueIdentifier>{DB37CA27-B58B-4ABE-9B68-1C7E5B8F0C34}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tankogeddon\AmmoBox.cpp">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tankogeddon\AmmoBox.h">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tankogeddon\Cannon.cpp">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tankogeddon\Cannon.h">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tankogeddon\DamageTaker.cpp">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tankogeddon\DamageTaker.h">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tankogeddon\GameStructs.cpp">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tankogeddon\GameStructs.h">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tankogeddon\HealthComponent.cpp">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tankogeddon\HealthComponent.h">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tankogeddon\Projectile.cpp">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tankogeddon\Projectile.h">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tankogeddon\SpellBox.cpp">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tankogeddon\SpellBox.h">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Tankogeddon\Tankogeddon.Build.cs">
+      <Filter>Source\Tankogeddon</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Tankogeddon\Tankogeddon.cpp">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tankogeddon\Tankogeddon.h">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tankogeddon\TankogeddonGameModeBase.cpp">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tankogeddon\TankogeddonGameModeBase.h">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tankogeddon\TankPawn.cpp">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tankogeddon\TankPawn.h">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tankogeddon\TankPlayerController.cpp">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tankogeddon\TankPlayerController.h">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tankogeddon\Turrel.cpp">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tankogeddon\Turrel.h">
+      <Filter>Source\Tankogeddon</Filter>
+    </ClInclude>
+    <Filter Include="Source\Tankogeddon\.vs">
+      <UniqueIdentifier>{0CED7319-9C4A-44D6-B494-D1C8FE8579E3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tankogeddon\.vs\ProjectSettings.json">
+      <Filter>Source\Tankogeddon\.vs</Filter>
+    </None>
+    <None Include="..\..\Source\Tankogeddon\.vs\slnx.sqlite">
+      <Filter>Source\Tankogeddon\.vs</Filter>
+    </None>
+    <None Include="..\..\Source\Tankogeddon\.vs\VSWorkspaceState.json">
+      <Filter>Source\Tankogeddon\.vs</Filter>
+    </None>
+    <Filter Include="Source\Tankogeddon\.vs\Tankogeddon">
+      <UniqueIdentifier>{F9E851F3-FC8D-4FC4-8049-313EEDBE02E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tankogeddon\.vs\Tankogeddon\FileContentIndex">
+      <UniqueIdentifier>{09711EE3-E578-4DEB-BAC0-1DCC9D744CF0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tankogeddon\.vs\Tankogeddon\FileContentIndex\d9d597ce-cda6-4c63-88ad-e0086b311cb3.vsidx">
+      <Filter>Source\Tankogeddon\.vs\Tankogeddon\FileContentIndex</Filter>
+    </None>
+    <None Include="..\..\Source\Tankogeddon\.vs\Tankogeddon\FileContentIndex\ecb73985-507d-4df8-a69b-beab50bc7680.vsidx">
+      <Filter>Source\Tankogeddon\.vs\Tankogeddon\FileContentIndex</Filter>
+    </None>
+    <None Include="..\..\Source\Tankogeddon\.vs\Tankogeddon\FileContentIndex\read.lock">
+      <Filter>Source\Tankogeddon\.vs\Tankogeddon\FileContentIndex</Filter>
+    </None>
+    <Filter Include="Source\Tankogeddon\.vs\Tankogeddon\v17">
+      <UniqueIdentifier>{8CF10B73-7FC9-4F9B-88B6-2E502511285D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tankogeddon\.vs\Tankogeddon\v17\Browse.VC.db">
+      <Filter>Source\Tankogeddon\.vs\Tankogeddon\v17</Filter>
+    </None>
+  </ItemGroup>
+</Project>

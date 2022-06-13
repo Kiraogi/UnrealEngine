@@ -1,0 +1,5 @@
+C:\GIT\Tankogeddon\Intermediate\Build\Win64\UE4Editor\Development\Tankogeddon\Definitions.Tankogeddon.h
+C:\Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\GIT\Tankogeddon\Source\Tankogeddon/AmmoBox.h
+C:\GIT\Tankogeddon\Intermediate\Build\Win64\UE4Editor\Inc\Tankogeddon\AmmoBox.generated.h

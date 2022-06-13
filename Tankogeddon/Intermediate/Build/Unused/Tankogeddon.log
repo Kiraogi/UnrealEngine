@@ -1,0 +1,38 @@
+﻿  Cleaning TankogeddonEditor and UnrealHeaderTool binaries...
+  Using 'git status' to determine working set for adaptive non-unity build (C:\GIT).
+  Creating makefile for TankogeddonEditor (no existing makefile)
+  Parsing headers for TankogeddonEditor
+    Running UnrealHeaderTool "C:\GIT\Tankogeddon\Tankogeddon.uproject" "C:\GIT\Tankogeddon\Intermediate\Build\Win64\TankogeddonEditor\Development\TankogeddonEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\golok\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for TankogeddonEditor in 3,4626471 seconds
+  Building TankogeddonEditor...
+  Using Visual Studio 2022 14.32.31329 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 23 actions with 8 processes...
+    [1/23] Default.rc2
+    [2/23] SharedPCH.Engine.ShadowErrors.cpp
+    Detected compiler newer than Visual Studio 2019, please update min version checking in WindowsPlatformCompilerSetup.h
+    [3/23] Tankogeddon.cpp
+    [4/23] Projectile.cpp
+    [5/23] TankogeddonGameModeBase.cpp
+    [6/23] GameStructs.cpp
+    [7/23] AmmoBox.cpp
+    [8/23] SpellBox.cpp
+    [9/23] AmmoBox.gen.cpp
+    [10/23] TankPawn.cpp
+    [11/23] TankPlayerController.cpp
+    [12/23] Projectile.gen.cpp
+    [13/23] Cannon.gen.cpp
+    [14/23] Cannon.cpp
+    [15/23] Tankogeddon.init.gen.cpp
+    [16/23] GameStructs.gen.cpp
+    [17/23] TankogeddonGameModeBase.gen.cpp
+    [18/23] SpellBox.gen.cpp
+    [19/23] TankPlayerController.gen.cpp
+    [20/23] TankPawn.gen.cpp
+    [21/23] UE4Editor-Tankogeddon-0001.lib
+       Создается библиотека C:\GIT\Tankogeddon\Intermediate\Build\Win64\UE4Editor\Development\Tankogeddon\UE4Editor-Tankogeddon-0001.lib и объект C:\GIT\Tankogeddon\Intermediate\Build\Win64\UE4Editor\Development\Tankogeddon\UE4Editor-Tankogeddon-0001.exp
+    [22/23] UE4Editor-Tankogeddon-0001.dll
+       Создается библиотека C:\GIT\Tankogeddon\Intermediate\Build\Win64\UE4Editor\Development\Tankogeddon\UE4Editor-Tankogeddon-0001.suppressed.lib и объект C:\GIT\Tankogeddon\Intermediate\Build\Win64\UE4Editor\Development\Tankogeddon\UE4Editor-Tankogeddon-0001.suppressed.exp
+    [23/23] TankogeddonEditor.target
+  Total time in Parallel executor: 32,39 seconds
+  Total execution time: 38,56 seconds

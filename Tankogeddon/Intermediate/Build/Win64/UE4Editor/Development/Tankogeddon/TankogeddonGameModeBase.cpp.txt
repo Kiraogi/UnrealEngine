@@ -1,0 +1,7 @@
+C:\GIT\Tankogeddon\Intermediate\Build\Win64\UE4Editor\Development\Tankogeddon\Definitions.Tankogeddon.h
+C:\GIT\Tankogeddon\Source\Tankogeddon\TankogeddonGameModeBase.h
+C:\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\GIT\Tankogeddon\Intermediate\Build\Win64\UE4Editor\Inc\Tankogeddon\TankogeddonGameModeBase.generated.h
