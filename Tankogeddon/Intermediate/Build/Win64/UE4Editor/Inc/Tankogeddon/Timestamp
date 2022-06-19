@@ -1,11 +1,12 @@
 C:\GIT\Tankogeddon\Source\Tankogeddon\AmmoBox.h
-C:\GIT\Tankogeddon\Source\Tankogeddon\GameStructs.h
+C:\GIT\Tankogeddon\Source\Tankogeddon\HealthComponent.h
 C:\GIT\Tankogeddon\Source\Tankogeddon\Projectile.h
 C:\GIT\Tankogeddon\Source\Tankogeddon\SpellBox.h
-C:\GIT\Tankogeddon\Source\Tankogeddon\Cannon.h
-C:\GIT\Tankogeddon\Source\Tankogeddon\TankogeddonGameModeBase.h
 C:\GIT\Tankogeddon\Source\Tankogeddon\TankPawn.h
 C:\GIT\Tankogeddon\Source\Tankogeddon\TankPlayerController.h
+C:\GIT\Tankogeddon\Source\Tankogeddon\Cannon.h
+C:\GIT\Tankogeddon\Source\Tankogeddon\TankogeddonGameModeBase.h
 C:\GIT\Tankogeddon\Source\Tankogeddon\Turrel.h
-C:\GIT\Tankogeddon\Source\Tankogeddon\HealthComponent.h
 C:\GIT\Tankogeddon\Source\Tankogeddon\DamageTaker.h
+C:\GIT\Tankogeddon\Source\Tankogeddon\GameStructs.h
+C:\GIT\Tankogeddon\Source\Tankogeddon\TankAIController.h
